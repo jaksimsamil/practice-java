@@ -24,10 +24,10 @@ public class Main {
                 MyInteger wrapA = new MyInteger(-1);
                 MyInteger wrapB = new MyInteger(1);
 
-                System.out.printf("Result 1:  %d %d\n", wrapA.num, wrapB.num);
+                System.out.printf("Origin Value       :  %d %d\n", wrapA.num, wrapB.num);
                 swap(wrapA.num, wrapB.num);
-                System.out.printf("Result 2:  %d %d\n", wrapA.num, wrapB.num);
+                System.out.printf("Call swap by value :  %d %d\n", wrapA.num, wrapB.num);
                 swapObject(wrapA, wrapB);
-                System.out.printf("Result 3:  %d %d\n", wrapA.num, wrapB.num);
+                System.out.printf("Call swap by Object:  %d %d\n", wrapA.num, wrapB.num);
         }
 }
