@@ -1,7 +1,7 @@
 package access_a;
 import access_b.Access;
 
-public class MainA {
+public class Main {
         public static void main(String[] args) {
                 Access access = new Access();
                 AccessChild accessChild = new AccessChild();
